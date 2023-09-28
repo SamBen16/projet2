@@ -13,6 +13,29 @@
     color: var(--main-color);
 }
 
+/*** header ***/
+.barre {
+margin: 30px;
+color: black;
+border: 3px solid black;
+width: 50vh;
+border-radius: 5px;
+text-align: center;
+
+}
+.barre span {
+    padding: 20px;
+    color: black;
+}
+button {
+ background: #3b0ce7;
+ color: white;
+ font-weight: bold;
+ border-radius: 10px;
+ padding: 8px;
+ border: white solid 2px;
+    
+}
 body {
     display: flex;
     justify-content: center;
