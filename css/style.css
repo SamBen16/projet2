@@ -23,7 +23,7 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
     }
-/* header */
+/****** Header ***********/
 header {
     width: 100%;
     display: flex;
@@ -54,7 +54,7 @@ header {
     border-color: #0065FC;
     color: #0065FC;
     }
-/* post header*/
+/****** Post header ***********/
 form{
     margin-bottom: 3%;
     display: flex;
@@ -275,8 +275,44 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+/****** Activités ***********/
+.activite {
+    width: 100%;
+    }
+.activite h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.activites-cards{
+    width: 100%;
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.activite a {
+    width: 100%;
+    height: 270px;
+    border: 2px solid rgb(250, 249, 249);
+    border-radius: 10%;
 
-/** footer **/
+}
+.activite img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    margin: auto;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10% ;
+}
+.activite-subtitle {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding: 10px;
+    }
+/****** Footer ***********/
 footer {
     display: flex;
     flex-direction: row;
@@ -298,7 +334,7 @@ footer span{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-/* header */
+/****** Header ***********/
     header {
         width: 100%;
         display: flex;
@@ -318,7 +354,7 @@ footer span{
         margin-left: 5%;
         padding-right: 10px;
         }
-/* post header*/
+/****** Post Header ***********/
     .container-filtres {
         display: flex;
         flex-direction: column;
@@ -342,7 +378,7 @@ footer span{
     .hebergements-and-populaires {
         flex-direction: column;
         }
-/* hebergements */
+/****** Hebergements ***********/
     .hebergements {
         width: 100%;
         margin: auto;
@@ -383,7 +419,7 @@ footer span{
         margin-top: 5px;
         }
 
-/*populaires*/
+/****** Populaires ***********/
     .populaires {
         width: 100%;
         margin: auto;
@@ -409,6 +445,46 @@ footer span{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+/****** Activités ***********/
+.activite {
+    width: 100%;
+    }
+.activite h2 {
+    margin-left: 15px;
+}
+/* .activites-cards{
+    width: 100%;
+    margin: auto;
+    gap: 15px;
+    display: flex;
+    } */
+/* .activite a {
+    width: 100%;
+    height: 270px;
+    border: 2px solid rgb(250, 249, 249);
+    border-radius: 10%;
+} */
+/* .activite img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    margin: auto;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10% ;
+} */
+/* .activite span {
+    font-size: 10px;
+} */
+.activite-subtitle {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-bottom: 10px;
+    }
+#mot {
+    display: none;
+}
 }
 
 /* Small devices (phones, less than 768px) */
@@ -423,7 +499,7 @@ footer span{
         margin: 0px;
         width: 100%;
         }   
-/* header */
+/****** Header ***********/
     .logo img {
         margin: auto;
         margin-top: 10px;
@@ -463,7 +539,7 @@ footer span{
     .nav ul li:active {
         border-color: #0065FC;
         }
-/* post header */
+/****** Post Header ***********/
     .marge {
         margin-left: 10px;
         }
@@ -523,7 +599,7 @@ footer span{
         display: flex;
         flex-direction: column-reverse;
         }
-/* hebergements */
+/****** Hebergements ***********/
     .hebergements {
         width: 100%;
         margin: auto;
@@ -570,7 +646,7 @@ footer span{
         font-size: 10px;
         margin-top: 5px;
         }
-/** populaires **/
+/****** Populaires ***********/
     .populaires-cards {
         display: flex;
         flex-direction: column;
@@ -589,7 +665,41 @@ footer span{
     .populaires-cards a {
         width: 100%;
         }
-/** footer **/
+/****** Activités ***********/
+.activite {
+    width: 100%;
+    }
+.activites-cards{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    }
+.activite a {
+    width: 90%;
+    margin: auto;
+    height: 280px;
+    border: 2px solid rgb(250, 249, 249);
+    border-radius: 20px;
+}
+.activite img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px ;
+}
+.activite-subtitle {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    }
+#mot {
+    display:block;
+}
+/****** Footer ***********/
     footer {
         display: flex;
         flex-direction: column;
