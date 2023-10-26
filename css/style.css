@@ -53,6 +53,80 @@ header {
     border-color: #0065FC;
     color: #0065FC;
     }
+/* post header*/
+form{
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    margin: 13px;
+    }
+label {
+    background-color: #F2F2F2;
+    width: 35px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 6px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+#marseille {
+    border: #F2F2F2;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    }
+#Rechercher {
+    background-color: #0065FC;
+    color:#F2F2F2;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    border: #FFFFFF;
+    padding: 16px 15px 16px;
+    width: 100px;
+    height: 3px;
+    border-left:3px solid #0065FC;
+    }
+#loupe {
+    display: none;
+    }
+.container-filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    gap: 5px;
+    flex-wrap: wrap;
+    }
+.contenu-filtre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    gap: 25px;
+    flex-wrap: wrap;
+    }
+.title-filtre{
+    font-size: 13px;
+    }
+#economique, #familiale, #romantique, #pepite{
+    border: 2px solid rgb(239, 239, 239);
+    gap: 10px;
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    border-radius: 25px ;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    }
+#economique:hover, #familiale:hover, #romantique:hover, #pepite:hover{
+    background-color: #DEEBFF;
+    }
+
 
 a {
     color: inherit;
@@ -192,6 +266,27 @@ a {
         margin-left: 5%;
         padding-right: 10px;
     }
+/* post header*/
+.container-filtres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    gap: 5px;
+    flex-wrap: wrap;
+    }
+.contenu-filtre{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 5px;
+    }
+#economique, #familiale, #romantique, #pepite{
+    border: 2px solid rgb(239, 239, 239);
+    gap: 5px;
+    width: 140px;
+    height: 30px;
+    }
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -276,7 +371,56 @@ a {
     .nav ul li:active {
         border-color: #0065FC;
     }
-
+/* post header */
+h1 {
+    margin: 5px;
+    font-size: 26px;
+    }
+h2 {
+    margin: 5px;
+    }
+p {
+    margin: 5px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    }
+form {
+    margin: 5px;
+    text-align: center;
+    }
+.container-filtres {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+    gap: 5px;
+    flex-wrap: wrap;
+    }
+.contenu-filtre{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 50px;
+    gap: 7px;
+    }
+#economique, #familiale, #romantique, #pepite{
+    border: 2px solid rgb(239, 239, 239);
+    margin: 5px;
+    gap: 10px;
+    width: 160px;
+    height: 30px;
+    }
+ #Rechercher {
+    display: none;
+    }
+#loupe {
+    display: block;
+    text-align: center;
+    background-color: #0065FC;
+    width: 30px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 25%;
+    }
 /** footer **/
     footer {
         display: flex;
