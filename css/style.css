@@ -689,6 +689,9 @@ footer span{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px ;
 }
+#vieuxPort {
+    object-position: center top;
+}
 .activite-subtitle {
     font-weight: bold;
     font-size: 12px;
